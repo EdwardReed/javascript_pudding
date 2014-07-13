@@ -1,13 +1,15 @@
 {
-  "name": "gulp_starter_kit",
+  "name": "react_starter_kit",
   "version": "0.1.0",
-  "description": "Gulp starter kit",
+  "description": "React starter kit",
+  "author": "Jeff Friesen",
+  "license": "MIT",
   "scripts": {
     "start": "coffee app.coffee"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/SnuggHome/evpv.git"
+    "url": "git@github.com:SnuggHome/react-starter-kit.git"
   },
   "engines": {
     "node": "0.10.x",
@@ -55,7 +57,6 @@
     "backbone": "~1.1.2",
     "jquery": "~2.1.0",
     "envify": "^1.2.1",
-    "react": "git://github.com/facebook/react.git#master",
     "knex": "^0.5.14",
     "bluebird": "^1.2.4",
     "mysql": "^2.3.2",
@@ -63,6 +64,15 @@
     "react-bootstrap": "^0.10.2",
     "connect": "^2.19.6",
     "underscore.string": "^2.3.3",
-    "lodash": "^2.4.1"
-  }
+    "lodash": "^2.4.1",
+    "react": "^0.10.0"
+  },
+  "keywords": [
+    "react",
+    "browserify",
+    "coffeescript",
+    "backbone",
+    "express",
+    "knex"
+  ]
 }

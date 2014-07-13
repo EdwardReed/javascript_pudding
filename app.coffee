@@ -25,7 +25,6 @@ app.get "/", (req, res) ->
   res.sendfile('./index.html')
 
 
-# Load calculator data when app loads
 getTableData = (req, res) ->
   table = req.route.path.split('/')[2]
   knex(table).select("*").then (data) ->
@@ -42,7 +41,7 @@ _.each tables, (table) =>
 
 
 
-# Super-hackable user auth: just making sure the email is in the DB
+# Super-hackable example user auth where I just making sure the email is in the DB
 app.post "/api/users", (req, res) ->
   console.log('email: ', req.body.email)
   knex('users')

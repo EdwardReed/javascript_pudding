@@ -1,8 +1,9 @@
 help = """
     <h4>Bootstrap Popovers?</h4>
-    <ol>
+    <p>In React?</p>
+    <ul>
       <li>That's great!</li>
-    </ol>
+    </ul>
   """
 
 module.exports = help
