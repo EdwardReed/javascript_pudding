@@ -1,0 +1,68 @@
+{
+  "name": "gulp_starter_kit",
+  "version": "0.1.0",
+  "description": "Gulp starter kit",
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SnuggHome/evpv.git"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.4.3"
+  },
+  "browser": {
+    "plugin": "./src/javascript/vendor/jquery-plugin.js",
+    "bootstrap": "./src/javascript/vendor/bootstrap.js"
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim",
+      "coffee-reactify"
+    ]
+  },
+  "browserify-shim": {
+    "bootstrap": {
+      "exports": "bootstrap",
+      "depends": [
+        "jquery:$"
+      ]
+    }
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "browserify-shim": "~3.4.1",
+    "browserify": "~3.36.0",
+    "coffeeify": "~0.6.0",
+    "gulp-changed": "~0.3.0",
+    "gulp-livereload": "~1.2.0",
+    "gulp-notify": "~1.2.4",
+    "gulp-open": "~0.2.8",
+    "gulp": "~3.6.0",
+    "vinyl-source-stream": "~0.1.1",
+    "gulp-less": "^1.2.3",
+    "reactify": "^0.13.1",
+    "coffee-react-transform": "^0.1.6",
+    "coffee-react": "0.0.6",
+    "coffee-reactify": "^0.1.1",
+    "connect-livereload": "^0.4.0",
+    "tiny-lr": "0.0.7",
+    "watchify": "^0.10.2",
+    "coffee-script": "^1.7.1",
+    "express": "3.x",
+    "backbone": "~1.1.2",
+    "jquery": "~2.1.0",
+    "envify": "^1.2.1",
+    "react": "git://github.com/facebook/react.git#master",
+    "knex": "^0.5.14",
+    "bluebird": "^1.2.4",
+    "mysql": "^2.3.2",
+    "eyes": "^0.1.8",
+    "react-bootstrap": "^0.10.2",
+    "connect": "^2.19.6",
+    "underscore.string": "^2.3.3",
+    "lodash": "^2.4.1"
+  }
+}
