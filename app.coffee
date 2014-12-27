@@ -36,25 +36,25 @@ tables = [
 ]
 
 # Define routes based on tables array
-_.each tables, (table) =>
-  app.get("/api/#{table}", getTableData)
+# _.each tables, (table) =>
+#   app.get("/api/#{table}", getTableData)
 
 
 
 # Super-hackable example user auth where I just making sure the email is in the DB
-app.post "/api/users", (req, res) ->
-  console.log('email: ', req.body.email)
-  knex('users')
-    .where(email: req.body.email)
-    .then( (data) ->
-      if _.isEmpty(data)
-        res.send(false)
-      else
-        d = data[0]
-        d.comments = undefined
-        console.log('user:', d)
-        res.send(d)
-    )
+# app.post "/api/users", (req, res) ->
+#   console.log('email: ', req.body.email)
+#   knex('users')
+#     .where(email: req.body.email)
+#     .then( (data) ->
+#       if _.isEmpty(data)
+#         res.send(false)
+#       else
+#         d = data[0]
+#         d.comments = undefined
+#         console.log('user:', d)
+#         res.send(d)
+#     )
 
 
 

@@ -1,1 +1,108 @@
 @import (less) "./bootstrap.css";
+
+@tableBorders: #ddd;
+
+//
+.data-editor {
+  margin: 4px 20px;
+
+  .table {
+    border-collapse: collapse;
+    td {
+      margin: 0;
+      padding: 0;
+      border: 1px solid #E2E2E2;
+      overflow: hidden;
+      line-height: 20px;
+      text-align: left;
+      white-space: nowrap;
+      vertical-align: middle;
+      display: table-cell;
+      &.input-number {
+        text-align: right;
+      }
+    }
+
+    thead > tr > th {
+      font-weight: bold;
+      text-align: center;
+      font-size: .75em;
+      vertical-align: bottom;
+      background-color: #f9f9f9;
+      border-bottom: 1px solid @tableBorders;
+      &:first-child {
+        border-left: 1px solid @tableBorders;
+      }
+      &:last-child {
+        border-right: 1px solid @tableBorders;
+      }
+    }
+
+    input {
+      width: 100%;
+      padding: 0.2em 0.4em 0.2em 0.4em;
+      margin: 0;
+      border:none;
+    }
+
+    // Autocomplete component
+    .autocomplete-container {
+      position: relative;
+      .autocomplete-options {
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        background-color: pink;
+      }
+    }
+
+  }
+} // .data-editor
+
+
+
+
+
+
+.tabs-below .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-below .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+
+.tabs-below .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.tabs-below .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+
+.tabs-below .nav-tabs > li > a:hover,
+.tabs-below .nav-tabs > li > a:focus {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+
+.tabs-below .nav-tabs > .active > a,
+.tabs-below .nav-tabs > .active > a:hover,
+.tabs-below .nav-tabs > .active > a:focus {
+  border-color: transparent #ddd #ddd #ddd;
+}
+
+
