@@ -2,13 +2,12 @@ express = require('express')
 http    = require('http')
 path    = require('path')
 fs      = require('fs')
-knex    = require("./knex_init")
 _       = require('lodash')
 
 app = express()
 
 # all environments
-app.set "port", process.env.PORT or 3000
+app.set "port", process.env.PORT or 5000
 app.set "views", __dirname
 
 # development only
