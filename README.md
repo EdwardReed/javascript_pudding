@@ -1,5 +1,7 @@
-![product_pudding](https://cloud.githubusercontent.com/assets/687403/6655215/b75e9dd0-cab1-11e4-9281-8dcfe095d56b.jpg)
-
+![product_pudding]()
+<p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/687403/6655215/b75e9dd0-cab1-11e4-9281-8dcfe095d56b.jpg" alt="Javascript Pudding"/>
+</p>
 React Starter Kit
 =================
 A starter repo that includes Browserify with Gulp, React, Express, Knex, Bootstrap and Coffeescript (including cjsx)
