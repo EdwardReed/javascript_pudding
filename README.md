@@ -8,32 +8,39 @@
 Express + Backbone + React + Bootstrap ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 </h1>
-# Javascript Used:
-## Browserify
-  Rails for API only applications - https://github.com/rails-api/rails-api
+# Notable NPM Packages Used:
 ## Coffee-Script
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise
-## Coffee-React
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise
-## jQuery
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise
-## Bootstrap
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
-## React-Bootstrap
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise 
-## Gulp
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise 
-## React
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise 
-## Reactify
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
-## Express
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
-## Backbone
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
-## Envify
+  CoffeeScript is a little language that compiles into JavaScript. - https://www.npmjs.com/package/coffee-script
 ## Bluebird
+  Full featured Promises/A+ implementation with exceptionally good performance
 ## Lodash
+  A JavaScript utility library delivering consistency, modularity, performance, & extras. - https://www.npmjs.com/package/lodash
+  
+## Express
+  Fast, unopinionated, minimalist web framework. - https://www.npmjs.com/package/express 
+## React
+  React is a JavaScript library for building user interfaces. - https://www.npmjs.com/package/react
+## Backbone
+  Give your JS App some Backbone with Models, Views, Collections, and Events. - https://www.npmjs.com/package/backbone
+## jQuery
+  JavaScript library for DOM operations. - https://www.npmjs.com/package/jquery
+
+## Browserify
+  Browser-side require() the node way. - https://www.npmjs.com/package/browserify
+## Gulp
+  The streaming build system. - https://www.npmjs.com/package/gulp
+## Reactify
+  Browserify transform for JSX (a superset of JS used by React.js). - https://www.npmjs.com/package/reactify 
+  
+## Bootstrap
+  The most popular front-end framework for developing responsive, mobile first projects on the web. - https://www.npmjs.com/package/bootstrap
+## React-Bootstrap
+  Bootstrap 3 components build with React. - https://www.npmjs.com/package/react-bootstrap 
+## Coffee-React
+  Coffeescript compiler wrapper adding coffee-react-transform CJSX support. - https://www.npmjs.com/package/coffee-react
+
+## Envify
+  Selectively replace Node-style environment variables with plain strings. - https://www.npmjs.com/package/envify
 
 #\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 #~~~~~~~~~~~~  Get Started  ~~~~~~~~~~~
