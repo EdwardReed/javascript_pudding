@@ -12,7 +12,7 @@ Express + Backbone + React + Bootstrap ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ## Coffee-Script
   CoffeeScript is a little language that compiles into JavaScript. - https://www.npmjs.com/package/coffee-script
 ## Bluebird
-  Full featured Promises/A+ implementation with exceptionally good performance
+  Full featured Promises/A+ implementation with exceptionally good performance. - https://www.npmjs.com/package/bluebird
 ## Lodash
   A JavaScript utility library delivering consistency, modularity, performance, & extras. - https://www.npmjs.com/package/lodash
   
