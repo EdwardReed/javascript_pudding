@@ -6,32 +6,36 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Javascript Pudding - Express + Backbone ~~~~~~~~~~~~~~~~ + React + Bootstrap ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 </h1>
-React Starter Kit
-=================
-A starter repo that includes Browserify with Gulp, React, Express, Knex, Bootstrap and Coffeescript (including cjsx)
+# Javascript Used:
+## Browserify
+  Rails for API only applications - https://github.com/rails-api/rails-api
+## Coffee-Script
+  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise
+## Coffee-React
+  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise
+## jQuery
+  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise
+## Bootstrap
+  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
+## React-Bootstrap
+  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise 
+## Gulp
+  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise 
+## React
+  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise 
+## Reactify
+  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
+## Express
+  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
+## Backbone
+  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
+## Envify
+## Bluebird
+## Lodash
 
-Complete List
-* React + Coffee-react
-* Gulp & Browserify
-* Central datastore with event system
-* Backbone router & dispatcher
-* Express
-* Knex SQL ORM (http://knexjs.org)
-* LESS
-* Bootstrap
-* React-bootstrap components: (http://react-bootstrap.github.io/components.html)
-* underscore.string, lodash, already setup for your own mixins
-* Bluebird for promises
-* Deploy shell scrips for staging and production
-
-
-Write coffeescript in your react components! It's so clean. Check it out: (https://github.com/jsdf/coffee-react)
-The central datastore is somewhat along the lines of Flux. This does not use Backbone models and collections, but Backbone is included if you want that.
-http://facebook.github.io/react/docs/flux-overview.html
-
-
-to start,
-
+#\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+#~~~~~~~~~~~~  Get Started  ~~~~~~~~~~~
+#/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 ```
 npm install
 ```
