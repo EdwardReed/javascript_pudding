@@ -3,7 +3,7 @@
 </p>
 <h1>
 \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-~~~~ Javascript Pudding - Express + Backbone ~~~~~~~
+~ Javascript Pudding - Express + Backbone ~~~~~~~
 ~~~~ + React + Bootstrap ~~~~~~~~~~~~~~~~~~~~
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 </h1>
