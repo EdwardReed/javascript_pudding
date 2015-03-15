@@ -2,8 +2,8 @@
   <img src="https://cloud.githubusercontent.com/assets/687403/6655215/b75e9dd0-cab1-11e4-9281-8dcfe095d56b.jpg" alt="Javascript Pudding"/>
 </p>
 #\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
-#~~~ Javascript Pudding - Express + Backbone 
-#~~~ + React + Bootstrap 
+~~~~ Javascript Pudding - Express + Backbone ~~~~~~~
+~~~~ + React + Bootstrap ~~~~~~~~~~~~~~~~~~~~
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 React Starter Kit
 =================
