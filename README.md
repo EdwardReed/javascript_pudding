@@ -39,27 +39,39 @@ Express + Backbone + React + Bootstrap ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #~~~~~~~~~~~~  Get Started  ~~~~~~~~~~~
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 
-##Bundle Gems
+##Install NPM Packages
 ```
 npm install
 ```
 
-In one terminal tab, type:
+###Run browserify/reactify/coffee transforms for the client
 ```
 gulp
 ```
-This runs the browserify/reactify/coffee transforms for the client.
 
+### Run Express server on port 5000
 In another terminal tab, type:
 ```
 npm start
 ```
-This runs the Express server on port 3000
-
-Then fire up
-
+#Code for the world!
 ```
-http://localhost:3000/#
+
+o               .        ___---___                    .
+       .              .--\        --.     .     .         .
+                    ./.;_.\     __/~ \.
+                   /;  / `-'  __\    . \
+ .        .       / ,--'     / .   .;   \        |
+                 | .|       /       __   |      -O-       .
+                |__/    __ |  . ;   \ | . |      |
+                |      /  \\_    . ;| \___|
+   .    o       |      \  .~\\___,--'     |           .
+                 |     | . ; ~~~~\_    __|
+    |             \    \   .  .  ; \  /_/   .
+   -O-        .    \   /         . |  ~/                  .
+    |    .          ~\ \   .      /  /~          o
+  .                   ~--___ ; ___--~
+                 .          ---         .              -JT
 ```
 
 
