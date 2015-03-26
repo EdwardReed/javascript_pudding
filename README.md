@@ -8,57 +8,78 @@
 Express + Backbone + React + Bootstrap ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 </h1>
-# Javascript Used:
-## Browserify
-  Rails for API only applications - https://github.com/rails-api/rails-api
+# Notable NPM Packages Used:
 ## Coffee-Script
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise
-## Coffee-React
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise
-## jQuery
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise
-## Bootstrap
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
-## React-Bootstrap
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise 
-## Gulp
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise 
-## React
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise 
-## Reactify
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
-## Express
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
-## Backbone
-  Flexible authentication solution for Rails with Warden. - https://github.com/plataformatec/devise  
-## Envify
+  CoffeeScript is a little language that compiles into JavaScript. - https://www.npmjs.com/package/coffee-script
 ## Bluebird
+  Full featured Promises/A+ implementation with exceptionally good performance. - https://www.npmjs.com/package/bluebird
 ## Lodash
+  A JavaScript utility library delivering consistency, modularity, performance, & extras. - https://www.npmjs.com/package/lodash
+  
+## Express
+  Fast, unopinionated, minimalist web framework. - https://www.npmjs.com/package/express 
+## React
+  React is a JavaScript library for building user interfaces. - https://www.npmjs.com/package/react
+## Backbone
+  Give your JS App some Backbone with Models, Views, Collections, and Events. - https://www.npmjs.com/package/backbone
+## jQuery
+  JavaScript library for DOM operations. - https://www.npmjs.com/package/jquery
+
+## Browserify
+  Browser-side require() the node way. - https://www.npmjs.com/package/browserify
+## Gulp
+  The streaming build system. - https://www.npmjs.com/package/gulp
+## Reactify
+  Browserify transform for JSX (a superset of JS used by React.js). - https://www.npmjs.com/package/reactify 
+  
+## Bootstrap
+  The most popular front-end framework for developing responsive, mobile first projects on the web. - https://www.npmjs.com/package/bootstrap
+## React-Bootstrap
+  Bootstrap 3 components build with React. - https://www.npmjs.com/package/react-bootstrap 
+## Coffee-React
+  Coffeescript compiler wrapper adding coffee-react-transform CJSX support. - https://www.npmjs.com/package/coffee-react
+
+## Envify
+  Selectively replace Node-style environment variables with plain strings. - https://www.npmjs.com/package/envify
 
 #\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 #~~~~~~~~~~~~  Get Started  ~~~~~~~~~~~
 #/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+##Install NPM Packages
 ```
 npm install
 ```
 
-In one terminal tab, type:
+###Run browserify/reactify/coffee transforms for the client
 ```
 gulp
 ```
-This runs the browserify/reactify/coffee transforms for the client.
 
+### Run Express server on port 5000
 In another terminal tab, type:
 ```
 npm start
 ```
-This runs the Express server on port 3000
-
-Then fire up
-
-```
-http://localhost:3000/#
+#Code for the world!
 ```
 
-
-Open to pull requests!
+o               .        ___---___                    .
+       .              .--\        --.     .     .         .
+                    ./.;_.\     __/~ \.
+                   /;  / `-'  __\    . \
+ .        .       / ,--'     / .   .;   \        |
+                 | .|       /       __   |      -O-       .
+                |__/    __ |  . ;   \ | . |      |
+                |      /  \\_    . ;| \___|
+   .    o       |      \  .~\\___,--'     |           .
+                 |     | . ; ~~~~\_    __|
+    |             \    \   .  .  ; \  /_/   .
+   -O-        .    \   /         . |  ~/                  .
+    |    .          ~\ \   .      /  /~          o
+  .                   ~--___ ; ___--~
+                 .          ---         .              -JT
+```
+##Try using [**That Api**](https://github.com/EdwardReed/that_api/) with Javascript Pudding.
+###Open to pull requests!
+Front-End best practices used: https://github.com/bendc/frontend-guidelines
