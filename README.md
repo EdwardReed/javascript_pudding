@@ -82,4 +82,4 @@ o               .        ___---___                    .
 ```
 ##Try using [**That Api**](https://github.com/EdwardReed/that_api/) with Javascript Pudding.
 ###Open to pull requests!
-## Front-End best practices used: https://github.com/bendc/frontend-guidelines
+### Front-End best practices used: https://github.com/bendc/frontend-guidelines
