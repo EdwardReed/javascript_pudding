@@ -22,7 +22,7 @@ class AppRouter extends Backbone.Router
 
 
   mountApp: (route) ->
-    React.renderComponent(new RouterComponent({data: datastores.getAll(), activeLink: route}), document.getElementById('primary container'))
+    React.renderComponent(new RouterComponent({data: datastores.getAll(), activeLink: route}), document.getElementById('frame'))
 
 
 window.appRouter = new AppRouter()
